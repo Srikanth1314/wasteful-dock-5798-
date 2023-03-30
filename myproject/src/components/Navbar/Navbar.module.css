@@ -1,0 +1,239 @@
+.firstdivwithlogo {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 30px;
+    /* border: 1px solid red; */
+    font-family: "Lexend Deca", sans-serif;
+  }
+  .firstdiinsidediv {
+    padding-top: 5px;
+    margin-left: 74%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 2px solid gray;
+    border-left: 2px solid gray;
+    
+  }
+  .firstdiinsidediv :hover{
+    color: blue;
+  }
+  .firstdiinsideA {
+    text-decoration: none;
+    font-size: 13px;
+    color: gray;
+  }
+   
+  .firstdiinsideigmgdiv {
+    padding-left: 6px;
+    padding-right: 10px;
+    border-right: 2px solid gray;
+  }
+   
+  .firstdiinsideigmgdiv :hover{
+    color: blue;
+  }
+  
+  .firstdivImg {
+    height: 25px;
+    margin-top: 3px;
+  }
+  .firstdivImg:hover{
+  
+    border: 1px solid blue;
+    border-radius: 28px;
+  }
+  /* '''''''''''''''''''''''''''''''''''''' */
+  
+  .secondDiv {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: #2d2d2d;
+    color: #fff;
+   
+  }
+    /* border: 1px solid red; */
+  
+  
+  .secondLink {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    margin-left: 76px;
+    margin-right: 20px;
+    margin-top: 5px;
+    letter-spacing:-3px;
+   
+    font-family: "Lexend Deca", sans-serif;
+  }
+  .secondspan {
+  
+   
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: -12px;
+    margin-top: 5px;
+    color: gray;
+  }
+  .secondspansecnd {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    border-right:1px solid #525050 ;
+    border-left:1px solid #525050 ;
+    padding:0 20px;
+   
+    font-size: 20px;
+   
+    font-family: "Lexend Deca", sans-serif;
+  }
+  .secondspansecnd:hover{
+    background-color: #525050;
+  }
+  .secondInputGroup {
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+    margin-top: 7px;
+  }
+  .secondInput {
+    padding: 20px;
+    border: none;
+    height: 0px;
+  
+    color: #2d2d2d;
+    margin-bottom: 8px;
+    border-radius: 25px;
+    font-family: "Josefin Slab", serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    width: 100%;
+  }
+  .secondIconBtn {
+    font-size: 25px;
+    margin-top: 9px;
+    border: none;
+  }
+  .secondSearchIcon {
+    color: black;
+    cursor: pointer;
+    background-color: white;
+  }
+  .secondICOn {
+    color: white;
+    margin-top: 14px;
+    margin-left: 33px;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  .secondICOn1{
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 1.5rem;
+    cursor: pointer;
+   
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 25px;
+    margin-top:-5px;
+  
+  }
+  .dropdown:hover{
+    margin-left: 20px;
+    border:1px solid white;
+    border-radius:10px;
+  }
+  
+  .dropdowncontent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: left;
+    padding-left: 15px;
+    border-radius:10px;
+    margin-left: -90px;
+  }
+  
+  .dropdowncontent Link {
+    color: black;
+    /* padding: 12px 16px; */
+    text-decoration: none;
+    display: block;
+    
+    
+    
+     
+  }
+  /* .dropdowncontent Link:hover {
+    
+    /* background-color: #ddd;  */
+    /* border:1px solid rgb(171, 1, 1); */
+     
+    /* padding-top: 10px; */
+  /* } */
+  
+  .dropdown:hover .dropdowncontent {
+    display: block;
+    margin-top:13px; 
+    /* border:1px solid rgb(171, 1, 1); */
+    /* width: 100%; */
+  }
+  
+  /* ............................................ */
+  
+  .thirdDiv {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 56, 92);
+    height: 50px;
+    font-family: "Lexend Deca", sans-serif;
+  }
+  .thirdbtn {
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    height: 20px;
+    margin-top: 5px;
+    font-weight: 700;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(255, 56, 92);
+    font-family: "Lexend Deca", sans-serif;
+  }
+  
+  .thirdH1 {
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: black;
+    margin-top: -7px;
+  }
+  .usera{
+    text-decoration: none;
+    color: gray;
+  }
+  .usera:hover{
+    text-decoration: none;
+    color: blue;
+  }
+  .userA{
+    color: rgb(100, 100, 100);
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .userA:hover{
+    color: blue;
+  }
